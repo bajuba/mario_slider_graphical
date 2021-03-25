@@ -1,13 +1,34 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <script src="mario.js"></script>
+  <link rel="stylesheet" href="mario.css">
+    <style>
+    </style>
 </head>
-<body>
-    <h1>Mario 1</h1>
-    <p>
-        Want to see a beautiful pyramid?
-        Open up the developer tools and look at the Console.
-    </p>
+<body >
+    
+    <h1>Pyramid Slider</h1>
+
+    <main>
+      <p id="para" class="inline">Brick Symbol: 
+        <span>
+          <select id="symbol">
+	          <option value="#" selected="selected">#</option>
+	          <option value="$">$</option>
+	          <option value="@">@</option>
+            <option value="X">X</option>
+          </select>
+        </span>
+      </p>
+
+
+      <input type="range" id="Slider" min="1" max="20" value="5" class="inline">
+
+      <p id="para" class="inline">Height: <span id="Svalue"></span></p>
+      <br><br>
+      <p id="pyramid"></p>
+    </main>
+
+    <script src="mario.js"></script>
 </body>
 </html>

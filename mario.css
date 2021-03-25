@@ -1,0 +1,70 @@
+h1 {
+  border: 3px solid black;
+  background-color: olive;
+  border-radius: 100px;
+}
+
+body {
+  font-family: "Courier New", monospace;
+  text-align: center;
+  background-color: goldenrod;
+}
+
+main{
+  border: 3px solid black;
+  border-radius: 100px;
+  padding: 15px;
+  margin: auto;
+  background-color: olive;
+}
+
+#para {
+  font-weight: bold;
+}
+
+#pyramid {
+  line-height: 0;
+  font-size: 30px;
+}
+
+.inline{
+  display: inline-block;
+}
+
+
+
+#Slider {
+  -webkit-appearance: none;
+  height: 10px;
+  border-radius: 5px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+#Slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 24px;
+  height: 27px;
+  border: 0;
+  background-image: url("mario.png");
+  cursor: pointer;
+}
+
+.space{
+  display: inline-block;
+  height:32px;
+  width:32px;
+}
+
+.brick{
+  display: inline-block;
+  height:32px;
+  width:32px;
+  background-image: url("brick.png");
+}
+
+p{margin:0;}
