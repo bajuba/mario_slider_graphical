@@ -2,7 +2,7 @@
 //Question List:
 //3. How to customize a slider (what are the different parts)
 //4. How to remove periods disappear and stay a right triangle
-
+//randy
 let slider = document.getElementById("Slider");
 let output = document.getElementById("Svalue");
 
